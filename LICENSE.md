@@ -1,6 +1,6 @@
-# ![logo](https://raw.githubusercontent.com/girisakar365/UrePass/master/24x24.png) UREPASS LISENCE TERMS ©  
+# ![logo](https://raw.githubusercontent.com/girisakar365/UrePass/master/24x24.png) UREPASS LICENSE TERMS ©  
 
-These lisence terms are an agreement between you and Sakar Giri Production. 
+These license terms are an agreement between you and Sakar Giri Production. 
 
 ##### IF YOU COMPLY WITH THESE LICENSE TERMS, YOU HAVE THE RIGHTS BELOW.
 
@@ -17,6 +17,5 @@ These lisence terms are an agreement between you and Sakar Giri Production.
 ii. remove, minimize, block or modify any notices of Microsoft or its suppliers in the software;<br>
 <br>
 iii. use the software in any way that is against the law;<br>
+<br>
 iv. share, publish, rent or lease the software, or provide the software as a stand-alone offering for others to use.
-
-    
