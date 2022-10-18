@@ -145,5 +145,5 @@ class Connect(QtWidgets.QWidget):
         self._userids['generateButton'].clicked.connect(lambda:self._userids['passwordEntry'].setText(generate_pass()))
         self._userids['deleteButton'].clicked.connect(lambda:[
             self._user.delete_user(), self._sidebarids['master'].hide(),
-            self._user['master'].hide(), self.view_first()
+            self._userids['master'].hide(), self.view_first()
         ])

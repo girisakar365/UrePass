@@ -4,9 +4,26 @@ from sqlite3 import *
 class DB:
 
     def __init__(self):
-        self.__con = connect('main.db')
+        self.__con = connect('UC-410D.db')
         self.__cur = self.__con.cursor()
+        
+    def initate_db(self):
 
+        self.__cur.execute('''CREATE TABLE IF NOT EXISTS UPU(
+        id TEXT NOT NULL PRIMARY KEY,
+        fname TEXT NOT NULL,
+        lname TEXT NOT NULL,
+        userName TEXT NOT NULL,
+        passWord TEXT NOT NULL)''')
+        
+        self.__cur.execute('''CREATE TABLE IF NOT EXISTS CU(User TEXT NOT NULL)''')
+
+        self.__cur.execute('''INSERT INTO CU VALUES (?)''',['NU'])
+        
+        self.__cur.execute('''CREATE TABLE IF NOT EXISTS CPH("#001" TEXT)''')
+    
+        self.__con.commit()
+        
     def ins(self,data:list):
         self.__cur.execute('INSERT INTO UPU VALUES (?,?,?,?,?)',data)
         self.__con.commit()
@@ -46,16 +63,11 @@ class DB:
         self.__con.commit()
 
     def create_table(self,id:str):
-        try: 
-            self.__cur.execute(
+        self.__cur.execute(
         f'''CREATE TABLE IF NOT EXISTS {id}(
-        id TEXT NOT NULL,
+        id TEXT NOT NULL PRIMARY KEY,
         accountType TEXT NOT NULL,
         account TEXT NOT NULL,
         userName TEXT NOT NULL,
-        passWord TEXT NOT NULL,
-        PRIMARY KEY('id') )''')
-            self.__con.commit()
-
-        except OperationalError:
-            pass
+        passWord TEXT NOT NULL)''')
+        self.__con.commit()

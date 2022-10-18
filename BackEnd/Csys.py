@@ -14,24 +14,31 @@ def generate_pass():
 
 class CPH:
     def __init__(self):
-        self.__con = connect('main.db')
+        self.__con = connect('UC-410D.db')
         self.__cur = self.__con.cursor()
 
-    def __ins(self,data:bytes):
-        self.__cur.execute('UPDATE CPH set "#001" = (?)',data)
+    def __insert_key(self,data:bytes):
+        self.__cur.execute('INSERT INTO CPH VALUES (?)',[data])
         self.__con.commit()
 
     def key(self) -> str:
         data = self.__cur.execute('SELECT * FROM CPH')
-        for data in data.fetchall(): return next(iter(data))
+        for k in data.fetchall(): return next(iter(k))
 
     def set_new_key(self):
-        self.__ins(Fernet.generate_key())
+        self.__insert_key(Fernet.generate_key())
 
 class Hash(CPH):
     def __init__(self):
         super().__init__()
-        self.__fer = Fernet(self.key())
+
+        if self.key() == None:
+            self.set_new_key()
+            self.__fer = Fernet( self.key() )
+            
+        else:
+            self.__fer = Fernet( self.key() )
+        
         self.db = DB()
 
     def _id(self):
@@ -42,7 +49,3 @@ class Hash(CPH):
     def _encrypt(self, data:str): return self.__fer.encrypt( bytes(data, 'utf8') )
 
     def _decrypt(self, cyp:bytes): return str(self.__fer.decrypt(cyp), 'utf8')
-
-# self = Hash()
-# for table in self.db.fetch_user( self.db.fetch_cu() ):
-#         print(self._decrypt( table[4] ))
