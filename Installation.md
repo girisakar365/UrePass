@@ -1,0 +1,3 @@
+# THANKYOU FOR INSTALLING OUR PRODUCT.
+
+##### INSTALLATION LINK: [UREPASS-INSTALLATION](https://tinyurl.com/Installation-UrePass)
