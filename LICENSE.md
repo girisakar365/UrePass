@@ -8,7 +8,7 @@ These license terms are an agreement between you and Sakar Giri Production.
     i. <b>General</b>. You may use any number of copies of the software to manage your passwords.<br>
 
 2. <b>DATA</b><br>
-    i. You datas <b>WILL BE SECURELY ENCRYPTED BY UREPASS</b> but this production provides <b>NO  GAURANTEES TO SAVE YOUR DATAS IF YOUR SYSTEM CRAHSES (IS DAMAGED DUE TO ANY REASON) OR YOU MAKE ANY SORTS OF MODIFICATION TO THE MAIN FILE OF THE SOFTWARE ITSELF</b.
+    i. You datas <b>WILL BE SECURELY ENCRYPTED BY UREPASS</b> but this production provides <b>NO  GAURANTEES TO SAVE YOUR DATAS IF YOUR SYSTEM CRAHSES (IS DAMAGED DUE TO ANY REASON) OR YOU MAKE ANY SORTS OF MODIFICATION TO THE MAIN FILE OF THE SOFTWARE ITSELF</b>.
 
 3.<b> SCOPE OF LICENSE</b>. This license applies to the UrePass product. Source code for UrePass is available [here](https://github.com/girisakar365/UrePass) under the MIT license agreement. The software is licensed, not sold. This agreement only gives you some rights to use the software. Sakar Giri Production reserves all other rights. Unless applicable law gives you more rights despite this limitation, you may use the software only as expressly permitted in this agreement. In doing so, you must comply with any technical limitations in the software that only allow you to use it in certain ways. You may not:
 <br>
