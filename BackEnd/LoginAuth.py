@@ -51,7 +51,10 @@ class validateLogin(conDBLogin):
 
         for i in [self.userName, self.pwd]: i.setStyleSheet(self.normalStyleSheet)
 
-        if any([self.__get_inputs()[0] =='', self.__get_inputs()[1] =='']):
+        if len([self._decrypt(i[3]) for i in self.db.fetch()]) == 0:
+            message(self.parent, 'No users Registered. Please Register an account!','w')
+
+        elif any([self.__get_inputs()[0] =='', self.__get_inputs()[1] =='']):
             for entry in [self.userName, self.pwd]: entry.setStyleSheet(self.errorStyleSheet)
             message(self.parent, 'Felids empty!','w')
 

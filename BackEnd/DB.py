@@ -17,8 +17,6 @@ class DB:
         passWord TEXT NOT NULL)''')
         
         self.__cur.execute('''CREATE TABLE IF NOT EXISTS CU(User TEXT NOT NULL)''')
-
-        self.__cur.execute('''INSERT INTO CU VALUES (?)''',['NU'])
         
         self.__cur.execute('''CREATE TABLE IF NOT EXISTS CPH("#001" TEXT)''')
     
@@ -64,7 +62,7 @@ class DB:
 
     def create_table(self,id:str):
         self.__cur.execute(
-        f'''CREATE TABLE IF NOT EXISTS {id}(
+        f'''CREATE TABLE IF NOT EXISTS "{id}"(
         id TEXT NOT NULL PRIMARY KEY,
         accountType TEXT NOT NULL,
         account TEXT NOT NULL,

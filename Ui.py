@@ -130,9 +130,11 @@ class Ui(Id):
         font.setPointSize(45)
         self.label_2.setFont(font)
         self.label_2.setStyleSheet("background-color: #FEFEFE")
+
         #check dbEnviorment
-        db = DB()
-        db.initate_db()
+        self.db = DB()
+        self.db.initate_db()
+
         conn = Connect(self)
 
 app = QtWidgets.QApplication(sys.argv)
