@@ -17,7 +17,15 @@
 <br>
 
 ## Table of Content:
-
+|S.N | Topics|  
+|----| ---- | 
+| 1. | [Getting Stared with UrePass](https://github.com/girisakar365/UrePass/blob/master/README.md##Getting-Stared-with-UrePass)|
+| 2. |[Flow of Files](https://github.com/girisakar365/UrePass/blob/master/README.md##Flow-of-Files)|
+| 3. |[Contirbuting](https://github.com/girisakar365/UrePass/blob/master/README.md##Contributing)|
+| 4. |[App Teasure](https://github.com/girisakar365/UrePass/blob/master/README.md##App-Teasure)|
+| 5. |[Installation](https://github.com/girisakar365/UrePass/blob/master/README.md##Installation)|
+| 6. |[ISSUES](https://github.com/girisakar365/UrePass/blob/master/README.md##ISSUES)|
+| 7. |[UPDATES](https://github.com/girisakar365/UrePass/blob/master/README.md##UPDATES)|
 
 ## Getting Stared with UrePass
 
@@ -76,6 +84,3 @@ The isntallation process of this app is very simple. You just need to visit the 
 
 Distributed under `Sakar Giri Production` License.
 For more detalis please check `License.md` file <b><u>[here](https://github.com/girisakar365/UrePass/blob/master/LICENSE.md) </b></u>
-
-
-## Conclusion
