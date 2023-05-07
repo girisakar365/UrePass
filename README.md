@@ -19,13 +19,14 @@
 ## Table of Content:
 |S.N | Topics|  
 |----| ---- | 
-| 1. |<a href="#Getting started with UrePass">Getting Started with UrePass</a>|
-| 2. |[Flow of Files](https://github.com/girisakar365/UrePass/blob/master/README.md##Flow-of-Files)|
-| 3. |[Contirbuting](https://github.com/girisakar365/UrePass/blob/master/README.md##Contributing)|
-| 4. |[App Teasure](https://github.com/girisakar365/UrePass/blob/master/README.md##App-Teasure)|
-| 5. |[Installation](https://github.com/girisakar365/UrePass/blob/master/README.md##Installation)|
-| 6. |[ISSUES](https://github.com/girisakar365/UrePass/blob/master/README.md##ISSUES)|
-| 7. |[UPDATES](https://github.com/girisakar365/UrePass/blob/master/README.md##UPDATES)|
+| 1. |[Getting Started with UrePass](https://github.com/girisakar365/UrePass/blob/master/README.md#getting-stared-with-urepass)|
+| 2. |[Flow of Files](https://github.com/girisakar365/UrePass/blob/master/README.md#flow-of-files)|
+| 3. |[Contirbuting](https://github.com/girisakar365/UrePass/blob/master/README.md#contributing)|
+| 4. |[App Teasure](https://github.com/girisakar365/UrePass/blob/master/README.md#app-teasure)|
+| 5. |[Installation](https://github.com/girisakar365/UrePass/blob/master/README.md#installation)|
+| 6. |[Issues](https://github.com/girisakar365/UrePass/blob/master/README.md#issues)|
+| 7. |[Updates](https://github.com/girisakar365/UrePass/blob/master/README.md#updates)|
+| 8. |[License](https://github.com/girisakar365/UrePass/blob/master/README.md#license)|
 
 ## Getting Stared with UrePass
 
@@ -48,7 +49,7 @@ Contributions are what make the open source community such an amazing place to l
 
 If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag `enhancement`. `Don't forget to give the project a star!`
 
-Steps:
+#### Steps:
 1. Fork the Project
 2. Create your Feature Branch (`git checkout -b branchName/fileName`)
 3. Commit your Changes (`git commit -m 'changes made'`)
@@ -66,14 +67,14 @@ The isntallation process of this app is very simple. You just need to visit the 
 
 `Note: This a work-in-progress project. Thus, their might be some possible bugs in the application. Ready to depoly product will be approved soon!`
 
-## ISSUES
+## Issues
 
 `#RG-UA001` -> `issue: #1`
 1. User token not recognized --> `Unresolved`
 2. Failed User login sessions --> `Resolved`
 3. Failed to empty `current user` feild (DB) --> `Resolved`
 
-## UPDATES
+## Updates
 
 - To be done:
     1. `Introduce Dark mode`.
