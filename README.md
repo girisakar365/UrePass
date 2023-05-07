@@ -41,7 +41,7 @@ You may clone the repo as you do normally. But the following versions must be fu
 <img src="https://github.com/girisakar365/UrePass/blob/master/Screenshort/Code%20base.png?raw=true" align=left\>
 <br><br>
 
-All the subfiles of `FrontEnd` have landed on `Ui` and all the subfile of BackEnd have landed on `Bridge`. However, some files Class of `src` file needs to be imported on `Bridge` to extract necessary widget(Frames). class of `DB` needs to imported on `Frontend` inorder to initialize the DB and check any faulty startups and fix it.
+All the subfiles of `FrontEnd` have landed on `Ui` and all the subfile of BackEnd have landed on `Bridge`. However, some files class of `src` file needs to be imported on `Bridge` to extract necessary widget(Frames). Class of `DB` needs to imported on `Frontend` inorder to initialize the DB and check any faulty startups and fix it.
 
 ## Contirbuting
 
@@ -63,7 +63,7 @@ As shown above UrePass is a very simplistic yet a `strong password manager` with
 
 
 ## Installation
-The isntallation process of this app is very simple. You just need to visit the link <b><u>[here](https://github.com/girisakar365/UrePass/blob/master/Installation.md)</b></u>. which will direct you to the drive. Download the installer and run the installation and you are done!
+The installation process of this app is very simple. You just need to visit the link <b><u>[here](https://github.com/girisakar365/UrePass/blob/master/Installation.md)</b></u>. which will direct you to the drive. Download the installer and run the installation and you are done!
 
 `Note: This a work-in-progress project. Thus, their might be some possible bugs in the application. Ready to depoly product will be approved soon!`
 
