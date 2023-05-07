@@ -19,7 +19,7 @@
 ## Table of Content:
 |S.N | Topics|  
 |----| ---- | 
-| 1. | [Getting Stared with UrePass](https://github.com/girisakar365/UrePass/blob/master/README.md##Getting-Stared-with-UrePass)|
+| 1. |<a href="#Getting started with UrePass">Getting Started with UrePass</a>|
 | 2. |[Flow of Files](https://github.com/girisakar365/UrePass/blob/master/README.md##Flow-of-Files)|
 | 3. |[Contirbuting](https://github.com/girisakar365/UrePass/blob/master/README.md##Contributing)|
 | 4. |[App Teasure](https://github.com/girisakar365/UrePass/blob/master/README.md##App-Teasure)|
