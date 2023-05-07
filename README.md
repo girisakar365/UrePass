@@ -63,7 +63,7 @@ As shown above UrePass is a very simplistic yet a `strong password manager` with
 
 
 ## Installation
-The isntallation process of this app is very simple. You just need to visit the link <b><u>[here](https://camo.githubusercontent.com/)</b></u>. which will direct you to the drive. Download the installer and run the installation and you are done!
+The isntallation process of this app is very simple. You just need to visit the link <b><u>[here](https://github.com/girisakar365/UrePass/blob/master/Installation.md)</b></u>. which will direct you to the drive. Download the installer and run the installation and you are done!
 
 `Note: This a work-in-progress project. Thus, their might be some possible bugs in the application. Ready to depoly product will be approved soon!`
 
