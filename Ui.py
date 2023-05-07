@@ -3,16 +3,7 @@ from time import strftime
 
 from BackEnd.DB import DB
 from Bridge import Connect
-from FrontEnd.accountStore import Account
-from FrontEnd.authorizeForm import Authorize
-from FrontEnd.backgroundDesign import mainWindowBg
-from FrontEnd.loginFrom import Login
-from FrontEnd.registerFrom import Register
-from FrontEnd.side_bar import sideBar
-from FrontEnd.src import *
-from FrontEnd.userForm import User
-from FrontEnd.view import myAccounts
-
+from FrontEnd import *
 
 class Id:
     def __init__(self, MainWindow:QtWidgets.QMainWindow):

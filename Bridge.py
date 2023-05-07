@@ -1,11 +1,4 @@
-from BackEnd.Authorize import Authorize
-from BackEnd.Csys import generate_pass
-from BackEnd.DB import DB
-from BackEnd.LoginAuth import validateLogin
-from BackEnd.Registration import validateRegister
-from BackEnd.Store import validateStore
-from BackEnd.User import User
-from BackEnd.viewAccounts import viewAccounts
+from BackEnd import *
 from FrontEnd.src import *
 
 
