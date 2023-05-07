@@ -84,4 +84,4 @@ The installation process of this app is very simple. You just need to visit the 
 ## License
 
 Distributed under `Sakar Giri Production` License.
-For more detalis please check `License.md` file <b><u>[here](https://github.com/girisakar365/UrePass/blob/master/LICENSE.md) </b></u>
+For more details please check `License.md` file <b><u>[here](https://github.com/girisakar365/UrePass/blob/master/LICENSE.md) </b></u>
