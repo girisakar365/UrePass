@@ -7,9 +7,9 @@
 ![PyPI - Wheel](https://img.shields.io/pypi/wheel/pyqt5?style=flat-square)
 ![GitHub last commit](https://img.shields.io/github/last-commit/girisakar365/UrePass?color=%234285F4&style=flat-square)
 
-<img src="https://github.com/girisakar365/UrePass/blob/master/Screenshort/2.png?raw=true#gh-dark-mode-only" width=2005 height=400 align=left/> 
+<img src="https://github.com/girisakar365/UrePass/blob/master/Screenshort/2.png?raw=true#gh-dark-mode-only" width=905 height=400 align=left/> 
 
-<img src="https://github.com/girisakar365/UrePass/blob/master/Screenshort/1.png?raw=true#gh-light-mode-only" width=2005 height=400 align=left> 
+<img src="https://github.com/girisakar365/UrePass/blob/master/Screenshort/1.png?raw=true#gh-light-mode-only" width=905 height=400 align=left> 
 
 ##### A Windows Based Password Manager.
 
