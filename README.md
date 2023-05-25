@@ -46,7 +46,7 @@ You may clone the repo as you do normally. But the following versions must be fu
 
 All the subfiles of `FrontEnd` have landed on `Ui` and all the subfile of BackEnd have landed on `Bridge`. However, some files class of `src` file needs to be imported on `Bridge` to extract necessary widget(Frames). Class of `DB` needs to imported on `Frontend` inorder to initialize the DB and check any faulty startups and fix it.
 
-## Contirbuting
+## Contributing
 
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are <b>greatly appreciated</b>.
 
