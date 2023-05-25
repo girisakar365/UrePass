@@ -44,6 +44,10 @@ class DB:
         self.__cur.execute('UPDATE CU set "user" = (?)', [data])
         self.__con.commit()
 
+    def cu_ins(self,data:str):
+        self.__cur.execute('INSERT INTO CU(user) VALUES (?)', [data])
+        self.__con.commit()
+
     def fetch_cu(self) -> str:
         return next(iter( self.__cur.execute('SELECT * from CU').fetchall() ))[0] #out from tuple
     

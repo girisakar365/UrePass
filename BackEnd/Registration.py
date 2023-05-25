@@ -18,6 +18,7 @@ class conDBRegister(Hash):
 		self.db.ins([user_id,  self._encrypt(fname.capitalize()), self._encrypt(lname.capitalize()),
 		self._encrypt(userName), self._encrypt(pwd)])
 		self.db.create_table(user_id)
+		self.db.cu_ins(user_id)
 
 class validateRegister(conDBRegister):
 

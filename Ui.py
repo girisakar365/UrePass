@@ -1,6 +1,5 @@
 import sys
 from time import strftime
-
 from BackEnd.DB import DB
 from Bridge import Connect
 from FrontEnd import *
