@@ -73,7 +73,7 @@ The installation process of this app is very simple. You just need to visit the 
 ## Issues
 
 `#RG-UA001` -> `issue: #1`
-1. User token not recognized --> `Unresolved`
+1. User token not recognized --> `Resolved`
 2. Failed User login sessions --> `Resolved`
 3. Failed to empty `current user` feild (DB) --> `Resolved`
 
