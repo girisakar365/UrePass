@@ -16,6 +16,9 @@
 `UrePass` is simple windows OS based password storing and managing application. It is a work-in-progress project that allows user to store and organize passwords.
 <br>
 
+### Disclaimer
+This is <b>just a side hobby</b> project to learn and unwind my personal skills on different aspects of a software development upto deployment stage. I therefore <b><u>request the visiters <b>NOT</b> to see it as a production ready software or so on.</b></u>
+
 ## Table of Content:
 |S.N | Topics|  
 |----| ---- | 
